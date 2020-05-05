@@ -64,6 +64,7 @@ class Dog
       dog = Dog.new(attributes)
     else
       dog = Dog.create(name:name, breed:breed)
+      binding.pry
     end
     dog
   end
